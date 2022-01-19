@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lightgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    padding: 15px;
+    width: 30vw;
+    margin: auto;
+    text-align: center;
+}
+
+.input-section, .result-section {
+    padding: 10px;
+    margin: 0 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    border-radius: 0.5em;
+    width: 30vw;
+    height: auto;
+}
+
+label{
+    display: block;
+}
+
+.info{
+    font-size: 12px;
+}
+.fa-info-circle{
+    color: orangered;
+}
+
+.message{
+    height: 30px;
+    padding: 5px;
+}
+
+.btn {
+    border: 0;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(22, 22, 117);
+    padding: 7px;
+    margin-top: 10px;
+    border-radius: 0.5em;
+}
+
+#result{
+    border-radius: 0.5em;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    display: block;
+    padding: 0.5em;
+    width: 100%;
+    height: 50px;
+    resize: none;
+}
+
+footer{
+    width: 35vh;
+    padding: 20px 0 20px 20px;
+    margin: auto;
+    text-align: center;
+}
+
+.linkedin-icon{
+    color: #0e76a8;
+}
+
+.github-icon{
+    color: #000000;
+}
+
+.message:focus-visible, #result:focus-visible{
+    outline-color:cornflowerblue ;
+}
+
+.result-title{
+    margin-bottom: 5px;
+}
+
+.fa-lock{
+    color: tomato;
+}
+
+.fa-unlock{
+    color:yellowgreen;
+}

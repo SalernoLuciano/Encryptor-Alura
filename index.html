@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Challenge - ONE - Text Encryptor / Decryptor</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+</head>
+<body>
+
+    <h1 class="title">Secret Code <i class="fas fa-user-secret"></i></h1>
+
+    <main class="main">
+        <section class="input-section">
+
+            <label for="message">Input your message</label>
+            <span class="info"><i class="fas fa-info-circle"></i> The message must be <b>lowercase</b>, and <b>without</b>  special characters.</span>
+            
+            <input type="text" name="message" id="message" class="message" placeholder="Input your message here... ">
+            
+            <button id="btn-encrypt" class="encrypt btn">Encrypt <i class="fas fa-lock"></i></button>
+            <button id="btn-decrypt" class="decrypt btn">Decrypt <i class="fas fa-unlock"></i></button>
+
+        </section>
+
+        <section class="result-section">
+
+            <label for="result" class="result-title">Your message Encrypted / Decrypted</label>
+            
+            <textarea name="result" id="result" cols="22" rows="10" placeholder="Your Encryption / Decryption will appear here..."></textarea>
+            
+            <button class="btn-copy btn" id="btn-copy">Copy <i class="fas fa-copy"></i></button>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            
+            <span class="tfooter-text">Designed by Luciano Salerno.</span>
+            
+            <a href="https://github.com/SalernoLuciano" target="_blank" rel="noreferrer" class="github-icon"><i class="fab fa-github"></i></a>
+            
+            <a href="https://www.linkedin.com/in/salernoluciano/" target="_balnk" rel="noreferrer" class="linkedin-icon"><i class="fab fa-linkedin"></i></a>
+            
+        </div>
+    </footer>
+
+    <script src="./js/desencriptar.js"></script>
+    <script src="./js/encriptacion.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/copiar.js"></script>
+</body>
+</html>
